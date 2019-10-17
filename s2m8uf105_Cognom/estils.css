@@ -6,10 +6,12 @@ div{
 }
 
 ul {
-  overflow: hidden;
-  margin: 0;
+  overflow: visible;
+  margin: 0px;
   padding: 0;
   width: 800px;
+  clear: both;
+  margin-bottom: 100px;
 
 }
 
@@ -17,31 +19,38 @@ li {
   display: block;
   width: 100px;
   height: 100px;
-  background-color: maroon;
+  background-color: yellow;
+  background-image: linear-gradient(45deg, black 10%, grey 90%);
   margin: 0;
   float: left;
 }
 
 li:nth-child(2n) {
   background-color: cyan;
+  background-image: linear-gradient(45deg, ivory 10%, white 90%);
+
 }
 
 
 ul:nth-child(2n) li {
   background-color: cyan;
+  background-image: linear-gradient(45deg, ivory 10%, white 90%);
+
 }
 
 ul:nth-child(2n) li:nth-child(2n) {
-  background-color: maroon;
+  background-color: yellow;
+  background-image: linear-gradient(45deg, black 10%, grey 90%);
 }
 
 p {
   width:80px;
   height: 80px;
+  margin: 10px;
   border-radius: 40px;
+  background-color: white;
+  box-shadow: 2px 2px 5px grey,
+              inset 7px 7px 20px brown;
   position: relative;
-  top: -10px;
-  left: 10px;
-  background: linear-gradient(45deg, white, lightgrey);
-  box-shadow: 2px 2px 5px grey;
+  top: 200px;
 }

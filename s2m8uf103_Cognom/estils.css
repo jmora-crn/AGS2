@@ -1,6 +1,20 @@
+/*
+
+0.5em=8px
+0.75em=12px
+1em=16px (Titulars)
+1.5em=24px; (paràgrafs)
+2em=32px(interliniat)
+
+*/
+
+body {
+  font-size: 3em;
+}
+
 p {
-  font-size:24px;
-  line-height: 32px;
+  font-size: 1em;
+  line-height: 2em;
   text-align: justify;
 }
 
@@ -46,4 +60,9 @@ div {
 .c2 {
   width: 390px;
   float: right;
+}
+
+h2 {
+  font-family: 'Baloo Bhai', Helvetica, Arial, Sans-serif;
+  font-size: 1.5em;
 }

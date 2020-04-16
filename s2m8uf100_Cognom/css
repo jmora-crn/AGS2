@@ -1,0 +1,17 @@
+CSS Cascade Style Sheets
+
+pàgina
+  fons Vermell
+  tamanydeltext 24px
+  font Arial
+
+taula
+  marge 20px
+  fons groc
+  amplada 800px
+
+etiqueta {
+            propietat1: valor;
+            propietat2: valor;
+            propietat3: valor;
+          }
